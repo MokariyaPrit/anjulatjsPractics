@@ -7,7 +7,7 @@
       }"
     ></div>
     <button (click)="onToggleDetails()">
-      <span class="text">{{ data().title }}</span>
+      <span class="text">{{ data().title | uppercase }}</span>
       <span>
         @if (detailsVisible()) {
         <svg

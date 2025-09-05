@@ -1,11 +1,12 @@
 import { Component, input, output, signal } from '@angular/core';
 
 import { Ticket } from '../ticket.model';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-ticket',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './ticket.component.html',
   styleUrl: './ticket.component.css'
 })
