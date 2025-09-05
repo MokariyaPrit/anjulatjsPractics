@@ -29,7 +29,5 @@ export class ControlComponent {
   private el = inject(ElementRef);
 
   onClick() {
-    console.log('Clicked!');
-    console.log(this.el);
   }
 }
